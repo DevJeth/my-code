@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000080;
+  overflow: hidden;
+
+}
+
+.container {
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-right: 10px;
+    margin-left: 10px;
+  
+}
+.overlay-image {
+    position:absolute;
+    top: 0px;
+    left: 500px;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    color: #191970;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+    color:lightgrey;
+    font-size: 15px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin: 12px 0;
+    border:  solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0F52BA;
+}
+p{
+    color: white;
+    font-size: 200%;
+   font-style:normal;
+
+}
+.forgot-password-link {
+  font-size: 15px;
+  color: white;
+
+}
+.register-text {
+font-size: 15px;
+color: white;
+}
+@media (max-width: 1000px) {
+    .yemi{
+        overflow: hidden;
+    }
+    .container {
+        max-width: 100%;
+        
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    h2 {
+        font-size: 14px; 
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        padding: 15px; 
+    }
+
+    input[type="submit"] {
+        padding: 8px; 
+    }
+
+    p {
+        font-size: 150%; 
+    }
+
+    .forgot-password-link,
+    .register-text {
+        font-size: 14px; 
+    }
+}
